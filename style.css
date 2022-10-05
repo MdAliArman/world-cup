@@ -1,0 +1,55 @@
+body{
+    /* font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif; */
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* top-section */
+.top-section{
+    background-color: #161616;
+    color: #FFF;
+    padding: 10px 28px;
+    border-radius: 10px;
+}
+.banner-top{
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    width: 50%;
+    padding: 20px 15px;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Poppins;
+}
+.banner-title p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.banner-title a{
+    text-decoration: none;
+    color: #FFF;
+}
+.banner-title a button{
+    padding: 10px 12px;
+    background-color: #DD0000;
+    color: #FFF;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+.banner-img img{
+    width: 450px;
+    height: 550px;
+    margin-left: 60px;
+}
+/* top-section End */
