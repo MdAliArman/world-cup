@@ -94,14 +94,21 @@ body{
     border: none;
     border-radius: 8px;
 }
+.match{
+ box-shadow: 10px 10px 8px 10px #f3ebeb;
+ border-radius: 8px;
+}
 .match-img img{
     width: 100%;
 }
+.match-info{
+    padding: 10px;
+}
 .match-info button{
     background-color: transparent;
-    padding: 8px 15px;
+    padding: 6px 20px;
     color: #161616;
-    font-size: 16px;
+    font-size: 14px;
     font-family: Poppins;
 }
 .match-info h4{
