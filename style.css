@@ -59,6 +59,7 @@ body{
     margin-top: 25px;
 }.main-body{
  display: flex;
+ padding: 25px 0;
 }
 .body-rigt{
    width: 30%;
@@ -97,6 +98,7 @@ body{
 .match{
  box-shadow: 10px 10px 8px 10px #f3ebeb;
  border-radius: 8px;
+ 
 }
 .match-img img{
     width: 100%;
@@ -126,4 +128,61 @@ body{
     font-size: 18px;
     color: gray;
     margin-right: 15px;
+}
+.hide-button{
+    padding: 10px 0;
+    margin: 20px auto;
+    text-align: center;
+}
+.hide-button a{
+    text-decoration: none;
+    
+}
+.hide-button button{
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #DD0000;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    /* visibility: hidden; */
+}
+/* End Main-section */
+/* ==================== */
+/* SATAR FOOTER */
+.footer-section{
+    padding: 30px 10px;
+    text-align: center;
+    background-color: blueviolet
+}
+.footer h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFF;
+    margin: 25px;
+}
+.service{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+.service h4{
+    text-align: center;
+    padding: 10px;
+    color: #FFF;
+    font-weight: 400;
+}
+.socail-icon i{
+    font-size: 25px;
+    padding: 10px;
+    color: #FFF;
+}
+hr{
+    width: 80%;
+    height: 2px;
+    background-color: gray;
+    margin: 10px auto;
+    border: none;
 }
