@@ -53,3 +53,52 @@ body{
     margin-left: 60px;
 }
 /* top-section End */
+/* ===================== */
+/* START-MAIN-BODY */
+.main-section{
+    margin-top: 25px;
+}.main-body{
+ display: flex;
+}
+.body-rigt{
+   width: 20%;
+}
+.body-left{
+    width: 80%;
+}
+.button a{
+    text-decoration: none;
+}
+.button button{
+    background-color: #FFF;
+    padding: 12px 15px;
+    color: #161616;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+}
+.match-info button{
+    background-color: transparent;
+    padding: 8px 15px;
+    color: #161616;
+    font-size: 16px;
+    font-family: Poppins;
+}
+.match-info h4{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #161616;
+}
+.blog-icon{
+    display: flex;
+    align-items: center;
+}
+
+.blog-icon i,span{
+    font-size: 18px;
+    color: gray;
+    margin-right: 15px;
+}
