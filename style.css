@@ -204,10 +204,12 @@ hr{
     }
     .banner-img{
         width: 100%;
+        margin-left: 0;
     }
     .banner-img img{
         width: 233px;
         height: 245px;
+        margin-left: 0;
     }
     /* main-section */
     .main-body{
