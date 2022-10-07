@@ -46,7 +46,13 @@ body{
     border: none;
     border-radius: 7px;
     margin-top: 25px;
+    animation-name: example;
+    animation-duration: 4s;
 }
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 .banner-img img{
     width: 450px;
     height: 550px;
